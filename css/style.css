@@ -37,7 +37,7 @@ img {
 
 /* HEADER  */
 header {
-    background-color: #3a68e2;
+    background-color: #255ee9;
     height: 80px;
 }
 
@@ -126,7 +126,7 @@ header ul li a {
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0px;    
+    padding: 165px 0px;  
 }
 
 .jumbotrone-container {
@@ -136,10 +136,12 @@ header ul li a {
     color: white;
 }
 
-.jumbotrone-container h1 {
-    margin-bottom: 40px;
+.jumbotrone-container p {
+    margin-top: 40px;
+    margin-bottom: 25px;
 }
 
-.buttons {
-    background-color: yellow;
+.buttons a {
+    display: inline-block;
+    text-decoration: none;
 }
