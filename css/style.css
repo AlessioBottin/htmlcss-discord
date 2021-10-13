@@ -24,9 +24,6 @@ img {
 /* Layoutt Structure  */
 .col {
     float: left;
-
-    /* Test  */
-    height: 80px;
 }
 
 .clearfix::after {
@@ -112,7 +109,7 @@ header ul li a {
 
 /* Common Text in Main  */
 .big-text {
-    line-height: 60px;
+    line-height: 70px;
     font-size: 60px;
 }
 
@@ -144,4 +141,42 @@ header ul li a {
 .buttons a {
     display: inline-block;
     text-decoration: none;
+}
+
+/* Advantages  */
+main .container {
+    padding: 250px 0px;   
+}
+
+/* Alternate background  */
+main .background:nth-child(even) {
+    background-color: white;
+}
+
+main .background:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+/* Col Layout structure  */
+.col-img {
+    width: 65%;
+}
+.col-text {
+    width: 30%;
+    margin-top: 45px;
+}
+
+/* Alternate Margin  */
+main .container .clearfix:nth-child(2) .col-text {
+    margin-left: 5%;
+}
+
+main .container .clearfix:nth-child(odd) .col-img {
+    margin-right: 5%;
+}
+
+/* Img  */
+
+/* Text  */
+main .container .clearfix .col h2 {
+    margin-bottom: 40px;
 }
