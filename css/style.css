@@ -1,0 +1,97 @@
+/* RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON  */
+body {
+    font-family: "Whitney";
+    font-family: Arial;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Images  */
+img {
+    width: 100%;
+}
+
+/* Layoutt Structure  */
+.col {
+    float: left;
+
+    /* Test  */
+    height: 80px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* HEADER  */
+header {
+    background-color: #3a68e2;
+    height: 80px;
+}
+
+/* Logo and Login col  */
+header .col-logo, 
+header .col-login {
+    width: 15%;
+}
+
+/* Logo  */
+header .col-logo {
+    line-height: 80px;
+}
+header .col-logo img {
+    vertical-align: middle;
+    width: 140px;
+}
+
+/* Login  */
+.col-login {
+    text-align: right;
+    line-height: 80px;
+}
+
+.btn-small {
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.btn-white {  
+    background-color: white;   
+}
+
+/* Navv Menu  */
+header .col-menu {
+    width: 70%;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 30px;
+    color: white;
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
